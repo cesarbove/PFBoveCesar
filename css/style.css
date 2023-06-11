@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap");
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.loreal {
+  padding-top: 50px;
+  margin-top: 0px;
+  background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
+}
+
+.portafolio {
+  padding-top: 50px;
+  margin-top: 0px;
+  background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
+}
+
+.redes {
+  padding-top: 50px;
+  margin-top: 0px;
+  background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
+}
+.redes a {
+  margin: 10px;
+}
+
+.turnos {
+  padding-top: 50px;
+  margin-top: 0px;
+  background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */

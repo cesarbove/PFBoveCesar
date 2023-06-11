@@ -1,0 +1,5 @@
+@mixin fondo($padding, $margin, $color){
+    padding-top: $padding;
+    margin-top: $margin;
+    background-image: $color;
+}

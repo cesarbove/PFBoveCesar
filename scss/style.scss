@@ -1,0 +1,25 @@
+@import "variables";
+@import "generales";
+@import "mixin";
+    *{
+    font-family: Roboto;
+    box-sizing: border-box;
+    }
+    .loreal {
+        @include fondo(50px,0px, $colorfondo);
+    }
+    .portafolio {
+        @include fondo(50px,0px, $colorfondo);
+    }
+    .redes {
+        @include fondo(50px,0px, $colorfondo);
+        a {
+            margin: 10px;
+    }}
+    .turnos {
+        @include fondo(50px,0px, $colorfondo);
+    }
+    @media screen and (max-width: 576px){
+        .main {
+            width: 90%;
+        }}
