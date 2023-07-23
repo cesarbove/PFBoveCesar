@@ -2,24 +2,29 @@
 @import "generales";
 @import "mixin";
     *{
-    font-family: Roboto;
-    box-sizing: border-box;
+        font-family: Roboto;
+        box-sizing: border-box;
     }
     .loreal {
         @include fondo(50px,0px, $colorfondo);
     }
-    .portafolio {
+    .colportafolio {
         @include fondo(50px,0px, $colorfondo);
     }
-    .redes {
+    .colredes {
         @include fondo(50px,0px, $colorfondo);
-        a {
-            margin: 10px;
-    }}
-    .turnos {
-        @include fondo(50px,0px, $colorfondo);
+            text-align: center
     }
-    @media screen and (max-width: 576px){
-        .main {
-            width: 90%;
+    .colturnos {
+        @include fondo(0px,0px, $colorfondo);
+        div {
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }}
+    @media screen and (max-width: 575px){
+        body{
+            width: 75%;
+            position: relative;
         }}

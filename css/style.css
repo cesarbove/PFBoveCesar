@@ -5,34 +5,39 @@
 }
 
 .loreal {
-  padding-top: 50px;
-  margin-top: 0px;
+  padding: 50px;
+  margin: 0px;
   background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
 }
 
-.portafolio {
-  padding-top: 50px;
-  margin-top: 0px;
+.colportafolio {
+  padding: 50px;
+  margin: 0px;
   background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
 }
 
-.redes {
-  padding-top: 50px;
-  margin-top: 0px;
+.colredes {
+  padding: 50px;
+  margin: 0px;
   background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
-}
-.redes a {
-  margin: 10px;
+  text-align: center;
 }
 
-.turnos {
-  padding-top: 50px;
-  margin-top: 0px;
+.colturnos {
+  padding: 0px;
+  margin: 0px;
   background-image: linear-gradient(0deg, rgb(36, 107, 153) 4%, rgb(128, 178, 214) 10%, rgb(196, 220, 236) 29%, rgb(224, 233, 235) 45%);
 }
+.colturnos div {
+  text-align: center;
+}
+.colturnos p {
+  text-align: center;
+}
 
-@media screen and (max-width: 576px) {
-  .main {
-    width: 90%;
+@media screen and (max-width: 575px) {
+  body {
+    width: 75%;
+    position: relative;
   }
 }/*# sourceMappingURL=style.css.map */
